@@ -1,0 +1,14 @@
+{
+  "generator-aphelion-website": {
+    "appname": "client-real-counselling",
+    "pages": false,
+    "blog": false,
+    "skeleton": true,
+    "semantic": false,
+    "styles": {
+      "css": false,
+      "less": false,
+      "sass": true
+    }
+  }
+}

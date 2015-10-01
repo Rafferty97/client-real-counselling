@@ -1,0 +1,14 @@
+[
+  {
+    "name": "header",
+    "view": "header.jade"
+  },
+  {
+    "name": "content",
+    "view": "content.jade"
+  },
+  {
+    "name": "footer",
+    "view": "footer.jade"
+  }
+]

@@ -1,0 +1,14 @@
+// @import "../../../base/styles/imports/mixins";
+// @import "../../../base/styles/imports/theme";
+
+$height-header: 300px;
+$bgc-header: #fff;
+$border-header: 1px solid #000;
+
+#header {
+  margin: 0;
+  padding: 0;
+  height: $height-header;
+  background-color: $bgc-header;
+  border: $border-header;
+}

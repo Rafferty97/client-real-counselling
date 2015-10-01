@@ -1,0 +1,14 @@
+// @import "../../../base/styles/imports/mixins";
+// @import "../../../base/styles/imports/theme";
+
+$height-footer: 300px;
+$bgc-footer: #fff;
+$border-footer: 1px solid #000;
+
+#footer {
+  margin: 0;
+  padding: 0;
+  height: $height-footer;
+  background-color: $bgc-footer;
+  border: $border-footer;
+}

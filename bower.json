@@ -1,0 +1,16 @@
+{
+  "name": "client-real-counselling",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "~2.0.4",
+    
+    "jquery": "~2.1.4"
+  }
+}

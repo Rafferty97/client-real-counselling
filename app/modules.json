@@ -1,0 +1,10 @@
+[
+  {
+    "dir": "base"
+  },
+  {
+    "dir": "index",
+    "scripts": "segments",
+    "styles": "segments"
+  }
+]

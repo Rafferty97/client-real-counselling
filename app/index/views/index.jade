@@ -1,0 +1,8 @@
+extends ../../base/views/base
+
+block title
+  title index
+
+block content
+  each current, index in segments
+    != renderFile(current.view, {current: current, index: index, segments: segments})
