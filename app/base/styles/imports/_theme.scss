@@ -1,7 +1,17 @@
-// backgrounds
-$primary: #fff;
-$secondary: #eee;
+// Background colors
+$primary: #e91e63;
+$dark-primary: #c2185b;
+$light-primary: #f8bbd0;
+$accent: #03a9f4;
 
-// fonts
-$font-primary: #000;
-$font-secondary: #333;
+// Fonts and icons
+$primary-text: #212121;
+$secondary-text: #727272;
+$icons: #fff;
+$divider: #b6b6b6;
+
+// Other
+.segment-padding {
+  padding-top: 240px;
+  padding-bottom: 240px;
+}

@@ -1,14 +1,13 @@
-// @import "../../../base/styles/imports/mixins";
-// @import "../../../base/styles/imports/theme";
-
-$height-content: 300px;
-$bgc-content: #fff;
-$border-content: 1px solid #000;
+@import '../../../base/styles/imports/mixins';
+@import '../../../base/styles/imports/theme';
 
 #content {
+  color: $secondary-text;
   margin: 0;
-  padding: 0;
-  height: $height-content;
-  background-color: $bgc-content;
-  border: $border-content;
+  @extend .segment-padding;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
 }

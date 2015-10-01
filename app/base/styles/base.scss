@@ -1,8 +1,10 @@
 // scss
-@import "imports/theme.scss";
-@import "imports/mixins.scss";
+@import 'imports/theme';
+@import 'imports/mixins';
+
+$bgc: #fff;
 
 body {
-  background-color: $primary;
-  color: $font-primary;
+  background-color: $bgc;
+  color: $primary-text;
 }
