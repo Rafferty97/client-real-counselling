@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "postinstall": "bower install && gulp build"
+    "postinstall": "bower install"
   },
   "dependencies": {
     "bower": "^1.5.3",
