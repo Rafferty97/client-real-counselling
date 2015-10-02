@@ -4,5 +4,10 @@
 #footer {
   background-color: $light-primary;
   margin: 0;
-  @extend .segment-padding;
+  color: $secondary-text;
+  padding: 140px 0 60px;
+
+  .container {
+    background: url('/img/glitter-flowers.png') right bottom no-repeat;
+  }
 }

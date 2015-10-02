@@ -1,36 +1,33 @@
-.segment-padding {
-  padding-top: 240px;
-  padding-bottom: 240px; }
-
 body {
   background-color: #fff;
   color: #212121; }
 
-.segment-padding, #content {
-  padding-top: 240px;
-  padding-bottom: 240px; }
-
 #content {
   color: #727272;
   margin: 0; }
+  #content .container {
+    padding: 200px 0; }
   #content img {
     height: auto;
     width: 100%; }
 
-.segment-padding, #header {
-  padding-top: 240px;
-  padding-bottom: 240px; }
+#footer {
+  background-color: #f8bbd0;
+  margin: 0;
+  color: #727272;
+  padding: 140px 0 60px; }
+  #footer .container {
+    background: url("/img/glitter-flowers.png") right bottom no-repeat; }
 
 #header {
   background-color: #e91e63;
+  background-image: linear-gradient(#eb3573, #e91e63);
   border-bottom: 20px solid #c2185b;
   color: #fff;
+  text-shadow: 2px 2px 4px #212121;
   margin: 0; }
-
-.segment-padding, #footer {
-  padding-top: 240px;
-  padding-bottom: 240px; }
-
-#footer {
-  background-color: #f8bbd0;
-  margin: 0; }
+  #header .container {
+    background: url("/img/flower-bird.png") right 80px no-repeat;
+    padding: 340px 0 100px; }
+  #header a {
+    color: #fff; }

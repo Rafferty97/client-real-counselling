@@ -4,7 +4,10 @@
 #content {
   color: $secondary-text;
   margin: 0;
-  @extend .segment-padding;
+
+  .container {
+    padding: 200px 0;
+  }
 
   img {
     height: auto;

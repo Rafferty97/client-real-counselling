@@ -3,8 +3,18 @@
 
 #header {
   background-color: $primary;
+  background-image: linear-gradient(lighten($primary, 5%), $primary);
   border-bottom: 20px solid $dark-primary;
   color: $icons;
+  text-shadow: 2px 2px 4px $primary-text;
   margin: 0;
-  @extend .segment-padding;
+
+  .container {
+    background: url('/img/flower-bird.png') right 80px no-repeat;
+    padding: 340px 0 100px;
+  }
+
+  a {
+    color: $icons;
+  }
 }
