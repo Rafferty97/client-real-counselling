@@ -12,8 +12,8 @@ module.exports = function(config) {
       ],
     },
     views: {
-      jade: config.paths.modules.views.map(function(views) {
-        return path.join(views, '**/*.jade');
+      jade: config.paths.modules.dirs.map(function(mod) {
+        return path.join(mod, '**/*.jade');
       }),
     },
     scripts: { // client scripts
@@ -25,11 +25,11 @@ module.exports = function(config) {
       min: 'scripts.min.js',
     },
     styles: {
-      
+
       sass: config.paths.modules.styles.map(function(styles) {
         return path.join(styles, '**/*.{sass,scss}');
       }),
-      
+
       file: 'styles.css',
       min: 'styles.min.css',
     },

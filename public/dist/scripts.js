@@ -18,7 +18,7 @@
 
 // (function() {
 //   $(document).ready(function() {
-//     var $header = $('header');
+//     var $footer = $('footer');
 //   });
 // })();
 
@@ -26,6 +26,6 @@
 
 // (function() {
 //   $(document).ready(function() {
-//     var $footer = $('footer');
+//     var $header = $('header');
 //   });
 // })();
