@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "node server.js",
+    "postinstall": "bower install && gulp build"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -35,5 +36,8 @@
     "gulp-util": "^3.0.6",
     "merge-stream": "^1.0.0",
     "run-sequence": "^1.1.2"
+  },
+  "engines": {
+    "node": "4.1.1"
   }
 }
