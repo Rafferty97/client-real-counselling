@@ -10,7 +10,7 @@
 
 // (function() {
 //   $(document).ready(function() {
-//     var $content = $('content');
+//     var $about = $('about');
 //   });
 // })();
 
@@ -19,6 +19,14 @@
 // (function() {
 //   $(document).ready(function() {
 //     var $footer = $('footer');
+//   });
+// })();
+
+// client side js
+
+// (function() {
+//   $(document).ready(function() {
+//     var $content = $('content');
 //   });
 // })();
 

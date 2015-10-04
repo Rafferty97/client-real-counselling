@@ -1,0 +1,15 @@
+// @import '../../../base/styles/imports/mixins';
+// @import '../../../base/styles/imports/theme';
+
+#about {
+  overflow: hidden;
+
+  .container {
+    padding: 80px 0;
+  }
+
+  img {
+    height: auto;
+    width: 80%;
+  }
+}

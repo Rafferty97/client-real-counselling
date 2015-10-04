@@ -8,6 +8,10 @@
     "view": "content.jade"
   },
   {
+    "name": "about",
+    "view": "about.jade"
+  },
+  {
     "name": "footer",
     "view": "footer.jade"
   }

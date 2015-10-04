@@ -5,7 +5,11 @@
   background-color: $light-primary;
   margin: 0;
   color: $secondary-text;
-  padding: 140px 0 60px;
+  padding: 100px 0 60px;
+
+  a {
+    color: $secondary-text;
+  }
 
   .container {
     background: url('/img/glitter-flowers.png') right bottom no-repeat;

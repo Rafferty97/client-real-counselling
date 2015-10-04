@@ -2,15 +2,15 @@
 @import '../../../base/styles/imports/theme';
 
 #content {
-  color: $secondary-text;
+  background-color: $primary;
+  background-image: linear-gradient(lighten($primary, 5%), $primary);
+  border-bottom: 20px solid $dark-primary;
+  color: $icons;
+  text-shadow: 2px 2px 4px $primary-text;
   margin: 0;
 
   .container {
-    padding: 200px 0;
-  }
-
-  img {
-    height: auto;
-    width: 100%;
+    background: url('/img/flower-bird.png') right 80px no-repeat;
+    padding: 160px 0 140px;
   }
 }

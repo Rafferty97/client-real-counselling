@@ -2,19 +2,21 @@
 @import '../../../base/styles/imports/theme';
 
 #header {
-  background-color: $primary;
-  background-image: linear-gradient(lighten($primary, 5%), $primary);
-  border-bottom: 20px solid $dark-primary;
-  color: $icons;
-  text-shadow: 2px 2px 4px $primary-text;
+  color: $secondary-text;
+  text-align: right;
+  font-size: 16px;
   margin: 0;
 
-  .container {
-    background: url('/img/flower-bird.png') right 80px no-repeat;
-    padding: 340px 0 100px;
+  a {
+    color: $secondary-text;
   }
 
-  a {
-    color: $icons;
+  .container {
+    padding: 50px 0;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
   }
 }

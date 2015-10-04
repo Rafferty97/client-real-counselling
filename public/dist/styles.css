@@ -2,32 +2,44 @@ body {
   background-color: #fff;
   color: #212121; }
 
-#content {
-  color: #727272;
-  margin: 0; }
-  #content .container {
-    padding: 200px 0; }
-  #content img {
+#about {
+  overflow: hidden; }
+  #about .container {
+    padding: 80px 0; }
+  #about img {
     height: auto;
-    width: 100%; }
+    width: 80%; }
 
-#footer {
-  background-color: #f8bbd0;
-  margin: 0;
-  color: #727272;
-  padding: 140px 0 60px; }
-  #footer .container {
-    background: url("/img/glitter-flowers.png") right bottom no-repeat; }
-
-#header {
+#content {
   background-color: #e91e63;
   background-image: linear-gradient(#eb3573, #e91e63);
   border-bottom: 20px solid #c2185b;
   color: #fff;
   text-shadow: 2px 2px 4px #212121;
   margin: 0; }
-  #header .container {
+  #content .container {
     background: url("/img/flower-bird.png") right 80px no-repeat;
-    padding: 340px 0 100px; }
+    padding: 160px 0 140px; }
+
+#footer {
+  background-color: #f8bbd0;
+  margin: 0;
+  color: #727272;
+  padding: 100px 0 60px; }
+  #footer a {
+    color: #727272; }
+  #footer .container {
+    background: url("/img/glitter-flowers.png") right bottom no-repeat; }
+
+#header {
+  color: #727272;
+  text-align: right;
+  font-size: 16px;
+  margin: 0; }
   #header a {
-    color: #fff; }
+    color: #727272; }
+  #header .container {
+    padding: 50px 0; }
+  #header img {
+    height: auto;
+    width: 100%; }
