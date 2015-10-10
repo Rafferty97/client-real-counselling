@@ -10,7 +10,11 @@
   margin: 0;
 
   .container {
-    background: url('/img/flower-bird.png') right 80px no-repeat;
-    padding: 160px 0 140px;
+    padding: 120px 0 130px;
+
+    /* Larger than tablet */
+    @media (min-width: 550px) {
+      background: url('/img/flower-bird.png') right 80px no-repeat;
+    }
   }
 }
