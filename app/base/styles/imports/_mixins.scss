@@ -9,5 +9,9 @@
 
   .container {
     padding: $mult * $perc 0;
+
+    @media (max-width: $medBP) {
+      padding: $mult * 40px 0;
+    }
   }
 }

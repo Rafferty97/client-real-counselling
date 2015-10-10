@@ -3,7 +3,7 @@
 
 #content {
   @include perc-padd(1.5);
-  
+
   background-color: $primary;
   background-image: linear-gradient(lighten($primary, 5%), $primary);
   border-top: 4px solid $dark-primary;
@@ -13,12 +13,30 @@
   margin: 0;
 
   .container {
-    /*background: url('/img/flower-bird.png') right 80px no-repeat;*/
+    background-image: url('/img/flowers.png');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
   }
 
   h1 {
     padding-bottom: 0.5em;
     margin-bottom: 1.5em;
     border-bottom: 4px solid $dark-primary;
+    text-shadow: 0 -2px 0 rgba(black, 0.15);
+  }
+
+  h2 {
+    font-size: 2.0em;
+    margin-bottom: 1.35em;
+    text-shadow: 0 -2px 0 rgba(black, 0.15);
+  }
+
+  p strong {
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  ol li {
+    padding-left: 1.35em;
   }
 }
