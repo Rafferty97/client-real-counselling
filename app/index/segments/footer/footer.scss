@@ -2,16 +2,37 @@
 @import '../../../base/styles/imports/theme';
 
 #footer {
-  background-color: $light-primary;
+  background-color: $near-black;
   margin: 0;
-  color: $secondary-text;
-  padding: 100px 0 60px;
+  color: white;
 
   a {
-    color: $secondary-text;
+    color: white;
   }
 
-  .container {
-    background: url('/img/glitter-flowers.png') right bottom no-repeat;
+  .contact.row {
+    font-size: 10px;
+    text-align: center;
+
+    h5 {
+      font-size: 2.2em;
+      line-height: 1.2em;
+      margin: 0 0 0.6em 0;
+    }
+
+    p {
+      font-size: 1.8em;
+      line-height: 1.2em;
+      margin: 0;
+    }
+  }
+
+  .legal.row {
+    color: #e0e0e0;
+    font-size: 14px;
+    border-top: 1px dotted white;
+    border-top: 1px dotted rgba(white, 0.5);
+    padding-top: 1.35em;
+    margin-top: 80px;
   }
 }

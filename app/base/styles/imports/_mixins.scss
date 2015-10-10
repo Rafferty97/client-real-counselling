@@ -3,3 +3,11 @@
   width: $width;
   height: $height;
 }
+
+@mixin perc-padd($mult) {
+  $perc: 5%;
+
+  .container {
+    padding: $mult * $perc 0;
+  }
+}

@@ -1,50 +1,81 @@
 body {
   background-color: #fff;
-  color: #212121; }
+  color: #212121;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px; }
 
-#about {
-  overflow: hidden; }
-  #about .container {
-    padding: 80px 0; }
-    #about .container ol {
-      padding-left: 30px; }
-  #about img {
-    height: auto;
-    width: 80%; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro';
+  /*font-family: 'Lora';*/ }
+
+h1 {
+  font-size: 2.25em;
+  margin-bottom: 1em; }
+
+p {
+  margin-bottom: 1.35em;
+  line-height: 1.35em; }
+
+.container {
+  padding: 5% 0; }
 
 #content {
   background-color: #e91e63;
   background-image: linear-gradient(#eb3573, #e91e63);
+  border-top: 4px solid #c2185b;
   border-bottom: 20px solid #c2185b;
-  color: #fff;
-  text-shadow: 2px 2px 4px #212121;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   margin: 0; }
   #content .container {
-    padding: 120px 0 130px;
-    /* Larger than tablet */ }
-    @media (min-width: 550px) {
-      #content .container {
-        background: url("/img/flower-bird.png") right 80px no-repeat; } }
+    padding: 7.5% 0; }
+  #content .container {
+    /*background: url('/img/flower-bird.png') right 80px no-repeat;*/ }
+  #content h1 {
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 4px solid #c2185b; }
 
 #footer {
-  background-color: #f8bbd0;
+  background-color: #26131A;
   margin: 0;
-  color: #727272;
-  padding: 100px 0 60px; }
+  color: white; }
   #footer a {
-    color: #727272; }
-  #footer .container {
-    background: url("/img/glitter-flowers.png") right bottom no-repeat; }
+    color: white; }
+  #footer .contact.row {
+    font-size: 10px;
+    text-align: center; }
+    #footer .contact.row h5 {
+      font-size: 2.2em;
+      line-height: 1.2em;
+      margin: 0 0 0.6em 0; }
+    #footer .contact.row p {
+      font-size: 1.8em;
+      line-height: 1.2em;
+      margin: 0; }
+  #footer .legal.row {
+    color: #e0e0e0;
+    font-size: 14px;
+    border-top: 1px dotted white;
+    border-top: 1px dotted rgba(255, 255, 255, 0.5);
+    padding-top: 1.35em;
+    margin-top: 80px; }
 
 #header {
-  color: #727272;
+  color: black;
   text-align: right;
   font-size: 16px;
   margin: 0; }
-  #header a {
-    color: #727272; }
-  #header .container {
-    padding: 50px 0; }
+  #header a:link, #header a:visited {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted #808080;
+    padding-bottom: 2px; }
   #header img {
-    height: auto;
-    width: 100%; }
+    width: 250px;
+    height: 80px; }
+  #header p.contact {
+    height: 60px;
+    line-height: 30px;
+    padding-top: 10px;
+    margin: 0; }

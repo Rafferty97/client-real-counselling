@@ -7,4 +7,23 @@ $bgc: #fff;
 body {
   background-color: $bgc;
   color: $primary-text;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro';
+  /*font-family: 'Lora';*/
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 1.35em;
+  line-height: 1.35em;
+}
+
+@include perc-padd(1);

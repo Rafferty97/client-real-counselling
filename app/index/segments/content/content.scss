@@ -2,19 +2,23 @@
 @import '../../../base/styles/imports/theme';
 
 #content {
+  @include perc-padd(1.5);
+  
   background-color: $primary;
   background-image: linear-gradient(lighten($primary, 5%), $primary);
+  border-top: 4px solid $dark-primary;
   border-bottom: 20px solid $dark-primary;
-  color: $icons;
-  text-shadow: 2px 2px 4px $primary-text;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(black, 0.3);
   margin: 0;
 
   .container {
-    padding: 120px 0 130px;
+    /*background: url('/img/flower-bird.png') right 80px no-repeat;*/
+  }
 
-    /* Larger than tablet */
-    @media (min-width: 550px) {
-      background: url('/img/flower-bird.png') right 80px no-repeat;
-    }
+  h1 {
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 4px solid $dark-primary;
   }
 }
