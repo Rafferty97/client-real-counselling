@@ -22,38 +22,6 @@ p {
     .container {
       padding: 40px 0; } }
 
-#content {
-  background-color: #e91e63;
-  background-image: linear-gradient(#eb3573, #e91e63);
-  border-top: 4px solid #c2185b;
-  border-bottom: 20px solid #c2185b;
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-  margin: 0; }
-  #content .container {
-    padding: 7.5% 0; }
-    @media (max-width: 750px) {
-      #content .container {
-        padding: 60px 0; } }
-  #content .container {
-    background-image: url("/img/flowers.png");
-    background-position: 100% 100%;
-    background-repeat: no-repeat; }
-  #content h1 {
-    padding-bottom: 0.5em;
-    margin-bottom: 1.5em;
-    border-bottom: 4px solid #c2185b;
-    text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15); }
-  #content h2 {
-    font-size: 2.0em;
-    margin-bottom: 1.35em;
-    text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15); }
-  #content p strong {
-    font-style: normal;
-    font-weight: bold; }
-  #content ol li {
-    padding-left: 1.35em; }
-
 #footer {
   background-color: #26131A;
   margin: 0;
@@ -97,6 +65,38 @@ p {
     @media (max-width: 550px) {
       #footer .legal.row {
         padding-top: 40px; } }
+
+#content {
+  background-color: #e91e63;
+  background-image: linear-gradient(#eb3573, #e91e63);
+  border-top: 4px solid #c2185b;
+  border-bottom: 20px solid #c2185b;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  margin: 0; }
+  #content .container {
+    padding: 7.5% 0; }
+    @media (max-width: 750px) {
+      #content .container {
+        padding: 60px 0; } }
+  #content .container {
+    background-image: url("/img/flowers.png");
+    background-position: 100% 100%;
+    background-repeat: no-repeat; }
+  #content h1 {
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 4px solid #c2185b;
+    text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15); }
+  #content h2 {
+    font-size: 2.0em;
+    margin-bottom: 1.35em;
+    text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15); }
+  #content p strong {
+    font-style: normal;
+    font-weight: bold; }
+  #content ol li {
+    padding-left: 1.35em; }
 
 #header {
   color: black;
