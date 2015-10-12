@@ -2,7 +2,7 @@
 @import 'imports/theme';
 @import 'imports/mixins';
 
-$bgc: #fff;
+$bgc: $near-black;
 
 body {
   background-color: $bgc;
