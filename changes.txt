@@ -1,3 +1,4 @@
 Integrated Webmaster Tools
 Integrated Google Analytics
 Changed HTML, BODY background colour to brown
+Added viewport tag for mobiles
