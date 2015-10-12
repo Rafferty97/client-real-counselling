@@ -14,8 +14,20 @@
 
   .container {
     background-image: url('/img/flowers.png');
+    background-size: 400px 400px;
     background-position: 100% 100%;
     background-repeat: no-repeat;
+
+    @media
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+      background-image: url('/img/flowers@2x.png');
+    }
+
+    @media (max-width: 500px) {
+      background-size: 250px 250px;
+      padding-bottom: 150px;
+    }
   }
 
   h1 {
@@ -38,5 +50,11 @@
 
   ol li {
     padding-left: 1.35em;
+  }
+
+  @media (max-width: $medBP) {
+    .columns {
+      width: auto;
+    }
   }
 }

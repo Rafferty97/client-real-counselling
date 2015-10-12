@@ -27,3 +27,10 @@ p {
 }
 
 @include perc-padd(1);
+
+@media (max-width: 400px) {
+  .container {
+    margin: 0 20px;
+    width: auto;
+  }
+}
