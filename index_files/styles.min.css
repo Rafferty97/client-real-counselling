@@ -4,12 +4,11 @@ html,body{background-color:#26131A;}#content h1,#content h2{text-shadow:0 -2px 0
   border-top: 1px solid rgba(255, 255, 255, 0.4);
   padding-top: 3.75rem;
   margin-top: 3.75rem;
+  margin-left: 0;
+  font-size: 16px;
 }
 
 ul {
   list-style:none;
-}
-
-ol {
-  margin-left: 0;
+  margin: 1.35em 0;
 }
